@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 240, 255);
+    text-align: center;
+}
+
+header{
+    font-weight: bolder;
+    font-size: 7vmin;
+    margin-top: 2.5vmin;
+    color: rgb(83, 98, 198);
+}
+
+.intro{
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.main_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_area{
+    height: 55vmin;
+    width: 55vmin;
+    background-color: rgba(250, 250, 210, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    gap: 1vmin;
+    margin: 3vmin;
+}
+
+div{
+    background-color: rgb(240, 255, 254);
+    border: 0.5vmin solid rgb(112, 126, 216);
+    height: 30%;
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 7vmin;
+    align-content: center;
+}
+
+.go_home{
+    display: inline-block;
+    background-color: rgb(240, 255, 254);
+    border: 0.5vmin solid rgb(112, 126, 216);
+    height: 4vmin;
+    width: 13vmin;
+    border-radius: 0.5vmin;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 3vmin;
+    align-content: center;
+    margin: 5vmin;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(112, 126, 216);
+}
+
+#play_title{
+    font-size: 150%;
+}
+
+
+.game_play{
+    border: 1vmin solid rgb(112, 126, 216);
+    border-block-style: groove;
+    font-size: 3vmin;
+    font-family:Cambria;
+    margin: 15vmin;
+    margin-top: 5vmin;
+    padding: 5vmin;
+    padding-top: 1.5vmin;
+    padding-bottom: 0.5vmin;
+}
+
+.edit{
+    margin:2vmin;
+}
+
+.game_over{
+    margin:2vmin;
+}
+
+#tie{
+    font-size: 10vmin;
+    margin: 3vmin;
+}
+
+.result{
+    font-size: 7vmin;
+}
+
+#win{
+    font-size: 10vmin;
+    font-family: 'Georgia', 'serif';
+}
+
+#reset{
+    background-color: lavenderblush;
+    padding:0.75rem;
+    border-radius: 1rem;
+    border-color: rgb(112, 126, 216);
+}
+
+footer{
+    text-align: left;
+    position:static;
+    bottom: 2px;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

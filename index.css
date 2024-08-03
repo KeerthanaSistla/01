@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 240, 255);
+    text-align: center;
+    animation-name: backgroundAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes backgroundAnimation{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header{
+    font-weight: bolder;
+    font-size: 10vmin;
+    margin-top: 5vmin;
+    color: rgb(83, 98, 198);
+}
+
+.intro{
+    font-size: 3.5vmin;
+    margin: 2vmin;
+    border: 1vmin;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(83, 98, 198);
+}
+
+#p1{
+    color: rgb(83, 98, 198);
+    margin-top: 5vmin;
+}
+
+.play_count{
+    display: inline-block;
+    background-color: rgb(240, 255, 254);
+    border: 0.5vmin solid rgb(112, 126, 216);
+    height: 10vmin;
+    width: 30vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 5vmin;
+    align-content: center;
+    padding: 2.5vmin;
+    margin: 1vmin;
+}
+
+.play_as{
+    display: inline-block;
+    background-color: rgb(240, 255, 254);
+    border: 0.5vmin dotted rgb(112, 126, 216);
+    height: 4vmin;
+    width: 13vmin;
+    border-radius: 0.5vmin;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 2.5vmin;
+    align-content: center;
+    padding: 2vmin;
+    text-decoration: none;
+    color: rgb(83, 98, 198);
+    display: none;
+    font-weight: bold;
+}
+
+#note{
+  font-family: cursive;
+  font-size: 2.5vmin;
+  display: none;
+  margin: 2vmin;
+}
+
+img{
+    width: 10vmin;
+}
+
+.game_play{
+    border: 1vmin solid rgb(112, 126, 216);
+    border-block-style: groove;
+    font-family:Cambria;
+    margin: 10vmin;
+    margin-top: 5vmin;
+    padding: 5vmin;
+    padding-top: 1.5vmin;
+    padding-bottom: 0.5vmin;
+}
+
+#play_title{
+    font-size: 5vmin;
+}
+
+#game_play{
+    font-size: 4vmin;
+}
+
+footer{
+    text-align: left;
+    position:static;
+    bottom: 2px;
+}
+
+/* 
+
+animation: backgroundAnimation 5s infinite alternate; */
